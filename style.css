@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    min-width: 50%;
+}
+
+.background-container--image1,
+.background-container--image2,
+.background-container--image3,
+.background-container--image4,
+.background-container--image5{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;   
+    width: 100vw;
+    height: 80vh;
+    padding: 0.1px;
+}
+
+.background-container--image1{
+    background-image: url(./img/bg.jpg);
+    height: 100vh;
+}
+.background-container--image2{
+    background-image: url(./img/bg2.jpg);
+}
+.background-container--image3{
+    background-image: url(./img/bg3.jpg);
+}
+.background-container--image4{
+    background-image: url(./img/bg4.jpg);
+}
+.background-container--image5{
+    background-image: url(./img/bg1.jpg);
+    height: 100vh;
+}
+
+.section{
+    height: 23vh;
+    line-height: 29px;
+    padding: 10px 80px 64px 80px;
+    overflow:auto;
+}
+
+.section h2{
+    margin: 60px 0px 15px 0px;
+}
+
+.section p{
+    margin-bottom: 64px;
+}
+
+.section--light{
+    background-color: #F1F1F1;
+    opacity: 0.7;
+}
+
+.section--dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+
+.heading-container{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    letter-spacing: 8px;
+}
+
+.heading-container--img{
+    margin-top: 471px;
+    margin-bottom: 471px;
+}
+
+.img{
+    width: 333px;
+    height: 69px;
+}
+
+.cont1{
+    line-height: 80px;
+    margin: 591px auto;
+    padding: 20px;
+    font-size: 48px;
+    width: 422px;
+    outline-offset: 16px;
+    outline: 8px inset #A64DA6;
+    border-radius: 32px 0 32px 0; 
+}
+
+.cont3{
+    line-height: 29px;
+    margin: 481px auto;
+    padding: 25px 0px;
+    font-size: 46px;
+    border-radius: 11px 0 11px 0;
+    outline-offset: 3px;
+    width: 779px;
+    outline: 6px inset #A64DA6;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.cont4{
+    font-size: 48px;
+    line-height: 80px;
+    outline-offset: 3px;
+    margin: 481px auto;
+    width: 477px;
+    outline: 6px inset #A64DA6;
+    border-radius: 11px 0 11px 0;
+}
+
+.cont5{
+    line-height: 80px;
+    margin: 591px auto;
+    padding: 20px;
+    font-size: 48px;
+    width: 743px;
+    outline-offset: 16px;
+    outline: 8px inset #A64DA6;
+    border-radius: 32px 0 32px 0;
+}
